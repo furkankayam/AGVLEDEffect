@@ -28,9 +28,61 @@ Or, if you prefer to manually install it:
 
 To use the AGVLEDEffect library in your Arduino sketch, follow these steps:
 
-1. Include the library.
+1. Include `FastLed` Library.
+2. Include the library.
 2. Create an instance of `AGVLEDEffect` for your LED pins.
 3. Call the desired LED effects in the `loop()` function.
+
+## Example
+
+```cpp
+/*
+    Author: Mehmet Furkan KAYA
+    Date: 26/01/2025
+*/
+
+#include <AGVLEDEffect.h> // Include the AGVLEDEffect library
+
+// AGVLEDEffect object
+AGVLEDEffect ledEffect;
+
+void setup() {
+}
+
+void loop() {
+  // Charge effect
+  ledEffect.chargingEffect();
+  delay(5000);
+
+  // Moving to charge station effect
+  ledEffect.movingToChargeStationEffect();
+  delay(5000);
+
+  // Loading effect
+  ledEffect.loadEffect();
+  delay(5000);
+
+  // Unloading effect
+  ledEffect.unloadEffect();
+  delay(5000);
+
+  // Right fill effect
+  ledEffect.rightFillEffect();
+  delay(5000);
+
+  // Left fill effect
+  ledEffect.leftFillEffect();
+  delay(5000);
+
+  // Go effect
+  ledEffect.goEffect();
+  delay(5000);
+
+  // Stop effect
+  ledEffect.stopEffect();
+  delay(5000);
+}
+```
 
 ### Library Methods
 
