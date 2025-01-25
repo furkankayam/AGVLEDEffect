@@ -1,3 +1,8 @@
+/*
+    Author: Mehmet Furkan KAYA
+    Date: 26/01/2025
+*/
+
 #include <AGVLEDEffect.h>
 
 // LED effect object is already created in the library
