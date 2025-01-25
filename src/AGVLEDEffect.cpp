@@ -155,3 +155,4 @@ void AGVLEDEffect::stopEffect() {
   delay(delayMs);
   fill_solid(leds1, NUM_LEDS, CRGB(0, 0, 0));
   fill_solid(leds11, NUM_LEDS, CRGB(0, 0, 0));
+}
