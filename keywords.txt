@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map For AGVLEDEffect
+#######################################
+
+#######################################
+# Keywords (KEYWORD1)
+#######################################
+
+AGVLEDEffect       KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+chargingEffect     KEYWORD2
+movingToChargeStationEffect  KEYWORD2
+loadEffect         KEYWORD2
+unloadEffect       KEYWORD2
+rightFillEffect    KEYWORD2
+leftFillEffect     KEYWORD2
+goEffect           KEYWORD2
+stopEffect         KEYWORD2
+
+#######################################
+# Macros (MACRO)
+#######################################
+
+LED_PIN1           MACRO
+LED_PIN11          MACRO
+LED_PIN2           MACRO
+LED_PIN22          MACRO
+NUM_LEDS           MACRO
+
+#######################################
+# Objects (OBJECT)
+#######################################
+
+leds1              OBJECT
+leds11             OBJECT
+leds2              OBJECT
+leds22             OBJECT
+
+#######################################
+# Parameters (PARAMETER)
+#######################################
+
+color             PARAMETER
+delayMs           PARAMETER
+mid               PARAMETER
