@@ -36,6 +36,10 @@ void loop() {
   ledEffect.leftFillEffect();
   delay(2000);
 
+  // Go effect
+  ledEffect.goEffect();
+  delay(2000);
+
   // Stop effect
   ledEffect.stopEffect();
   delay(2000);
