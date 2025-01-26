@@ -24,14 +24,21 @@ Or, if you prefer to manually install it:
 1. Download the library and unzip it.
 2. Move the unzipped folder to your Arduino libraries folder (usually located at **Documents/Arduino/libraries**).
 
+## Pinout
+
+- **RIGHT LED 1** -> Arduino **Pin 6**
+- **RIGHT LED 2** -> Arduino **Pin 7**
+- **LEFT LED 1** -> Arduino **Pin 8**
+- **LEFT LED 2** -> Arduino **Pin 9**
+
 ## Usage
 
 To use the AGVLEDEffect library in your Arduino sketch, follow these steps:
 
 1. Include `FastLed` Library.
 2. Include the library.
-2. Create an instance of `AGVLEDEffect` for your LED pins.
-3. Call the desired LED effects in the `loop()` function.
+3. Create an instance of `AGVLEDEffect` for your LED pins.
+4. Call the desired LED effects in the `loop()` function.
 
 ## Example
 
